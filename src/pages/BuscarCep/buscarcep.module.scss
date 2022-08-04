@@ -1,0 +1,38 @@
+
+.buscarCep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    min-height: 100vh;
+}
+
+.inputBox{
+    background-color: rgb(63, 63, 63);
+    border-radius: 5px;
+    padding: 10px 15px;
+    
+
+    .inputCep{
+        border: none;
+        outline: none;
+        background-color:transparent;
+        color:rgb(82, 255, 143);
+
+        &::placeholder{color: rgb(147, 146, 146);}
+
+        &:focus{
+            box-shadow: none;
+        }
+    }
+
+    .icone{
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: rgb(82, 255, 143);
+        font-size: 24px;
+    }
+}
